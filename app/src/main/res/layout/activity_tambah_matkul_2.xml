@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context="com.example.berna.naotenhonome.activity.TambahMatkulActivity2">
+
+    <EditText
+        android:id="@+id/etNamaDosen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome Categoria" />
+
+    <EditText
+        android:id="@+id/etNamaMatkul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Descricao categoria" />
+
+    <Button
+        android:id="@+id/btnSimpanMatkul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Salvar Categoria" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="28dp"
+        android:background="@drawable/bg_rectangle_button"
+        android:text="NAO APERTE" />
+</LinearLayout>
